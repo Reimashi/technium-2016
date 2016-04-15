@@ -69,6 +69,7 @@ for (var x in places) {
  */
 var salida = "";
 for (var x in groups) {
+  salida += "# Mesa" + x + EOL;
   for (var y in groups[x]) { salida += groups[x][y].id + ";" + groups[x][y].watts + EOL; }
   salida += EOL;
 }
