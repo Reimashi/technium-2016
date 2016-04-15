@@ -10,7 +10,7 @@ Como sabéis, utilizamos un generador eléctrico así que tenemos que tener cuid
 
 La lista de usuarios incluye 320 líneas definidas del siguiente modo:
 
-#Linea de comentario
+\#Linea de comentario
 201;850
 
 Que representan, el ID de usuario 201, con carga eléctrica de 850W. Se pueden escribir comentarios de una linea prefijados con un #, que no se influirán en el recuento final.
@@ -25,10 +25,10 @@ Por ejemplo, dada una lista inicial de 4 usuarios a repartir en 2 mesas de 2 pue
 204;300
 
 Una salida viable sería:
-#Mesa1
+\#Mesa1
 203;300
 201;850
-#Mesa2
+\#Mesa2
 204;300
 202;1000
 
